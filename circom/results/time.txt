@@ -1,0 +1,5 @@
+/*
+2^10 -- commit 4ms  proof 3.2s  verify 270ms, size 800 B
+2^11 -- commit 10ms proof 5.8s  verify 270ms, size 800 B
+2^12 -- commit 18ms proof 15.2s verify 270ms, size 800 B
+ */

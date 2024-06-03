@@ -1,0 +1,19 @@
+[package]
+name = "proof_of_assets"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "prover"
+path = "src/prover.rs"
+
+
+[[bin]]
+name = "verifier"
+path = "src/verifier.rs"
+
+[dependencies]
+serde = "1.0.203"
+serde_json = "1.0.117"
+tokio = { version = "1", features = ["full"] }
+web3 = "0.19.0"

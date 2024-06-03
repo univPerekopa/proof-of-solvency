@@ -1,0 +1,10 @@
+.idea/
+node_modules
+*.log
+target
+circom/node_modules
+*.ptau
+*.zkey
+.DS_Store
+*.r1cs
+*.sym
